@@ -50,7 +50,6 @@ Gem::Specification.new do |s|
   s.add_dependency('net-ssh', '>=2.1.3')
   s.add_dependency('nokogiri', '~>1.5')
   s.add_dependency('ruby-hmac')
-  s.add_dependency('unicode', "~> 0.4.4") unless RUBY_PLATFORM == 'java'
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
@@ -65,6 +64,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('fission')
   s.add_development_dependency('pry')
   s.add_development_dependency('google-api-client', '~>0.6.2')
+  s.add_development_dependency('unf')
   if ENV["FOG_USE_LIBVIRT"] && RUBY_PLATFORM != 'java'
     s.add_development_dependency('ruby-libvirt','~>0.4.0')
   end
