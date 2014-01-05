@@ -1,5 +1,8 @@
 ![fog](http://geemus.s3.amazonaws.com/fog.png)
 
+
+As a backup repo of ZJU-SEL/fog, this repo will be **abandoned** when the PR from ZJU-SEL is accepted by fog/fog. 
+
 fog is the Ruby cloud services library, top to bottom:
 
 * Collections provide a simplified interface, making clouds easier to work with and switch between.
@@ -7,8 +10,6 @@ fog is the Ruby cloud services library, top to bottom:
 * Mocks make testing and integrating a breeze.
 
 #NOTE
-
-As a backup repo of ZJU-SEL/fog, this repo will be *abandoned* when the PR from ZJU-SEL is accepted by fog/fog. 
 
 [![Build Status](https://secure.travis-ci.org/fog/fog.png?branch=master)](http://travis-ci.org/fog/fog)
 [![Dependency Status](https://gemnasium.com/fog/fog.png)](https://gemnasium.com/fog/fog)
