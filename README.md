@@ -6,6 +6,10 @@ fog is the Ruby cloud services library, top to bottom:
 * Requests allow power users to get the most out of the features of each individual cloud.
 * Mocks make testing and integrating a breeze.
 
+#NOTE
+
+As a backup repo of ZJU-SEL/fog, this repo will be *abandoned* when the PR from ZJU-SEL is accepted by fog/fog. 
+
 [![Build Status](https://secure.travis-ci.org/fog/fog.png?branch=master)](http://travis-ci.org/fog/fog)
 [![Dependency Status](https://gemnasium.com/fog/fog.png)](https://gemnasium.com/fog/fog)
 [![Code Climate](https://codeclimate.com/github/fog/fog.png)](https://codeclimate.com/github/fog/fog)
